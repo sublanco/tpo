@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/home.grid.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <title>Contacto</title>
+
+</head>
+
+<body>
+    <div class="contenedor-contacto">
+
+        <header class="header">
+             <h1>Music Cloud</h1>
+        </header>
+
+        <nav class="nav">
+
+            <a href="index.html">Inicio</a>
+            <a href="listas.html">Listas</a>
+            <a href="creditos.html">Creditos</a>
+            <a href="contacto.html" class="activo">Contacto</a>
+            
+        </nav>
+
+        <section class="section">
+            <form action="" onsubmit="return validar()">
+                
+                    <div class="grid-itemDoble">
+                        <h2 class="center">Comentarios</h2>
+                    </div>
+
+                    <div class="nombre-label"> <label for="nombre">Nombre:</label></div>
+                    <div class="grid-item"><input type="text" name="nombre" id="nombre" class="input"> <span
+                            id="error_nombre" class="error"></span> </div>
+
+                    <div class="apellido-label"> <label for="apellido">Apellido:</label></div>
+                    <div class="grid-item"><input type="text" name="apellido" id="apellido" class="input"><span
+                            id="error_apellido" class="error"></span> </div>
+
+                    <div class="edad-label"><label for="edad">Edad:</label></div>
+                    <div class="grid-item"><input type="text" name="edad" id="edad" class="input"><span id="error_edad"
+                            class="error"></span></div>
+
+                    <div class="email-label"><label for="email">Email:</label></div>
+                    <div class="grid-item"><input type="email" name="email" id="email" class="input"><span
+                            id="error_email" class="error"></span></div>
+
+                    <div class="comentario"><label for="comentario">Tu Comentario:</label></div>
+                    <div class="grid-itemDoble"><textarea name="comentario" class="textarea" id="comentario" cols="55"
+                            rows="10"></textarea> <span id="error_comentario" class="error"></span> </div>
+                    <div class="grid-itemDoble center"><input type="submit" class="button" value="Enviar"> <input
+                            type="reset" class="button" value="Borrar"></div>
+
+
+            
+            </form>
+            <script src="js/script.js"></script>
+
+            </section>
+
+            <div class="footer">
+
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https://geofault.com" target="_blank" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+    <a href="https://api.whatsapp.com/send?text=https://geofault.com" target="_blank" class="whatsapp"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+    <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://geofault.com" target="_blank" class="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+    <a href="https://plus.google.com/share?url=https://geofault.com" target="_blank" class="google-plus"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+            
+             </div>
+    </div>
+
+</body>
+
+</html>
