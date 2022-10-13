@@ -414,6 +414,11 @@ ul {
                              "footer";
 
     }
+
+    .carousel-item img {
+        width: 100% !important;
+    }
+
     .contenedor-creditos{
         grid-template-areas: "header header"
                             "nav nav"
@@ -438,7 +443,7 @@ ul {
     
 
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 601px) and (max-width: 767px){
     .contenedor{
 
     grid-template-areas: 
@@ -449,6 +454,11 @@ ul {
                              "footer footer";
 
     }
+
+    .carousel-item img {
+        width: 85% !important;
+    }
+
     .contenedor-creditos{
         grid-template-areas: "header"
                             "nav"
