@@ -464,7 +464,8 @@ ul {
     .contenedor-creditos{
         grid-template-areas: "header"
                             "nav"
-                            "creditos boxmaps"
+                            "creditos"
+                            "boxmaps"
                             "herramientas"
                             "footer";
     }
