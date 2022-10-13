@@ -158,7 +158,7 @@ i.fa::before {
                         "footer footer footer footer";
 }
 .section {
-    max-width: 600px;
+
     grid-area: section;
     background-color:rgb(233, 126, 49);
     padding: 20px;
