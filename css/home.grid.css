@@ -423,6 +423,7 @@ ul {
         grid-template-areas: "header header"
                             "nav nav"
                             "creditos boxmaps"
+                            "herramientas herramientas"
                             "footer footer";
 
     }
@@ -463,6 +464,7 @@ ul {
         grid-template-areas: "header"
                             "nav"
                             "creditos boxmaps"
+                            "herramientas"
                             "footer";
     }
     .contenedor-contacto {
