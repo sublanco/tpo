@@ -168,7 +168,7 @@ i.fa::before {
 }
 
 .ancho-lista {
-    width: 600px;
+    max-width: 600px;
 }
 
 
