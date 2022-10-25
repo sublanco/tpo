@@ -1,0 +1,761 @@
+.container {
+    background-color:white;
+    padding: 1px;
+    display: grid;
+    grid-template-columns: 15% 35% 35% 15%;
+    grid-template-rows: 50px 50px 50px;
+    justify-content:center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+h1{
+    color: black;
+    font-family: 'Merriweather', serif;
+}
+
+
+
+/****** Version Mobile-smallest 320px-511px **********/
+@media only screen and (max-width:511px){
+    .container {
+        background-color:white;
+        padding: 1px;
+        display: grid;
+        grid-template-columns: 25% 50% 25%;
+        grid-template-rows: 90px 30px auto 20px 30px 90px 90px 90px 30px auto 30px 30px;
+        justify-content:center;
+        vertical-align: center;
+        
+    }    
+
+    .box{
+        background-color: blue;
+        padding: 5px;
+        text-align: center;
+        color: white;
+        border: 1px dotted white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    h1{
+        color: #696969;
+        margin-top: 0px;
+       
+    }
+
+    .header{
+        padding: 0px;
+        margin-top: 10px;
+        display:flex;
+        flex-direction: row;
+        justify-content:center;
+        box-sizing: border-box;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        background-color:white;
+        background-size: cover;
+        color:#696969;
+        width: 100%;
+        height: 70px;
+        font-size: auto;
+        grid-column: 1/5;
+        border-bottom: 2px solid grey;
+                            
+    }
+    
+    .artist{
+        grid-column: 1/4;
+        background-color: white;
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 14px;
+        border: 2px solid grey;
+        border-radius: 5px;
+        margin-top:2px;
+                
+    }
+    
+    .boxbotbio{
+        grid-column: 1;
+        grid-row:2;
+        background-color: #6495ED;
+        font-size: 14px;
+        vertical-align: middle;
+        text-align: center;
+
+    }
+    
+        
+    .cover{
+        grid-row: 3;
+        grid-column: 1/4;
+        background-color: #F5F5F5;
+        border-radius: 25px;
+            
+    }
+    
+    .responsive{
+        width: 100%;
+        max-width: 400px;
+
+    }
+    
+    
+    .pie{
+        grid-row:4;
+        grid-column: 1/4;
+        background-color:#FDF5E6;
+        color: black;
+        font-size: 10px;
+        border-radius: 5px ;
+        border: 1px solid lightgrey;
+
+    }
+    
+    .titlemost{
+        grid-row: 5;
+        grid-column: 1/4;
+        background-color:white;
+        color: black;
+        font-size: 12px;
+        border: 2px solid grey;
+        border-radius: 5px;
+        margin-top: 5px;
+    
+    }
+    
+    .player01{
+        grid-row:6;
+        grid-column: 1/4;
+        background-color:#F5F5F5; 
+
+    }
+    
+    .player02{
+        grid-row:7;
+        grid-column: 1/4;
+        background-color:#F5F5F5;
+
+    }
+    
+    .player03{
+        grid-row:8;
+        grid-column: 1/4;
+        background-color:#F5F5F5;
+
+    }
+    
+    .titlebio{
+        grid-row:9;
+        grid-column: 1/4;
+        background-color: white;
+        color: black;
+        font-size: 80%;
+        border: 2px solid grey;
+        border-radius: 5px;
+
+    }
+    
+    
+    .textbio{
+        grid-row:10;
+        grid-column: 1/4;
+        background-color:#F5F5F5;
+        color: grey;
+        text-align: justify;
+        font-size: auto;
+        padding: 10px;
+    
+    }
+    
+    .spacer{
+        grid-row: 11;
+        grid-column: 1/3;
+        background-color:#F5F5F5;
+        text-align: center;
+        border: 2px solid grey;
+        border-radius: 5px;
+        
+    }
+    
+    .backbutton{
+        grid-column: 3;
+        grid-row:11;
+        background-color:#FDF5E6;
+        font-size: 12px;
+        color:white;
+        border: 2px solid grey;
+        border-radius: 5px;
+            
+    }
+    
+    .footer{
+        grid-row: 12;
+        grid-column: 1/4;
+        background-color:white;
+        text-align: center;
+        font-size: 10px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        height: 40px;
+        margin-top: 20px;
+        padding-top:5px;
+
+    }
+    
+}
+
+
+
+/*********** Para Mobile 512px-767px *****************/
+@media only screen and (min-width:512px){
+    .container {
+        background-color: white;
+        padding: 1px;
+        display: grid;
+        grid-template-columns: 15% 35% 35% 15%;
+        grid-template-rows: 90px 35px auto 20px 30px auto auto auto 30px 30px;
+        justify-content:center;
+        
+    }
+
+    .box{
+        background-color: blue;
+        padding: 5px;
+        text-align: center;
+        color: white;
+        border: 1px dotted white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+    
+    h1{
+        color: #696969;
+        margin-top: 0px;
+        
+    }
+
+    .header{
+        padding: 0px;
+        margin-top: 10px;
+        display:flex;
+        flex-direction: row;
+        justify-content:center;
+        box-sizing: border-box;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        background-color:white;
+        background-size: cover;
+        color:#696969;
+        width: 100%;
+        height: 70px;
+        font-size: 20px;
+        grid-column: 1/5;
+        border-bottom: 2px solid grey;
+                            
+    }
+
+    .artist{
+        grid-column: 1/5;
+        grid-row: 2;
+        background-color: white;
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 18px;
+        border: 2px solid grey;
+        border-radius: 5px;
+        margin-top:2px;
+
+    }
+    
+    .cover{
+        grid-row: 3;
+        grid-column: 1/5;
+        background-color: #F5F5F5
+    
+    }
+    
+    .responsive{
+        width: 100%;
+        max-width: 400px;
+
+    }
+    
+    .pie{
+        grid-row:4;
+        grid-column: 1/5;
+        background-color:#FDF5E6;
+        color: black;
+        font-size: 12px;
+        border: 1px solid lightgrey;
+        border-radius: 5px;
+        
+    }
+    
+    .titlemost{
+        grid-row: 5;
+        grid-column: 3/5;
+        background-color:white;
+        color: black;
+        font-size: 14px;
+        border: 2px solid grey;
+        border-radius: 5px; 
+        margin-top: 5px;   
+    
+    }
+    
+    .player01{
+        grid-row:6;
+        grid-column: 3/5;
+        background-color:#F5F5F5;
+
+    }
+    
+    .player02{
+        grid-row:7;
+        grid-column: 3/5;
+        background-color:#F5F5F5;
+
+    }
+    
+    .player03{
+        grid-row:8;
+        grid-column: 3/5;
+        background-color:#F5F5F5;
+
+    }
+    
+    .titlebio{
+        grid-row:5;
+        grid-column: 1/3;
+        background-color: white;
+        color: black;
+        font-size: 14px;
+        border: 2px solid grey;
+        border-radius: 5px;
+        margin-top: 5px;  
+
+    }
+    
+    .textbio{
+        grid-row:6/ span 3;
+        grid-column: 1/3;
+        background-color:#F5F5F5;
+        color: grey;
+        text-align: justify;
+        font-size: 80%;
+    
+    }
+    
+    .spacer{
+        grid-row: 9;
+        grid-column: 1/4;
+        background-color:#F5F5F5;
+        text-align: center;
+        font-size: 14px;
+        border: 2px solid grey;
+        border-radius: 5px;
+        
+    }
+    
+    .backbutton{
+        grid-column: 4/5;
+        grid-row:9;
+        background-color:#FDF5E6;
+        font-size: 14px;
+        border: 2px solid grey;
+        border-radius: 5px;
+    
+    }
+    
+    .footer{
+        grid-row: 10;
+        grid-column: 1/5;
+        background-color:white;
+        text-align: center;
+        font-size: 12px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        margin-top: 30px;
+        padding-top:5px;
+        height: 40px;
+        
+    }
+    
+}
+
+
+
+/******* para Version Tablet o Ipad Mini 768px *******/
+@media only screen and (min-width:768px){
+    .container {
+        background-color: white;
+        padding: 0px;
+        display: grid;
+        grid-template-columns: 50% 25% 25%;
+        column-gap: 1px;
+        grid-template-rows: 90px 40px 30px 30px 30px 30px 30px 30px 30px 30px 30px ; 
+        justify-content:center; 
+            
+    }
+    
+    .box{
+        background-color: blue;
+        padding: 5px;
+        text-align: center;
+        color: white;
+        border: 1px dotted white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    }
+    
+    h1{
+        color: #696969;
+        margin-top: 0px;
+        
+    }
+
+    .header{
+        padding: 0px;
+        margin-top: 10px;
+        display:flex;
+        flex-direction: row;
+        justify-content:center;
+        box-sizing: border-box;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        background-color:white;
+        background-size: cover;
+        color:#696969;
+        width: 100%;
+        height: 70px;
+        font-size: 20px;
+        grid-column: 1/5;
+        border-bottom: 2px solid grey;
+                            
+    }
+
+    .artist{
+        grid-column: 2/ span 2;
+        background-color: white;
+        color: black;
+        font-size: 18px;
+        border: 2px solid grey;
+        border-radius: 5px;
+        margin-top: 2px;
+       
+    }
+    
+    .cover{
+        padding-top: 15px;
+        grid-column: 1;
+        grid-row:2/ span 5;
+        background-color: #F5F5F5;
+        border-radius: 25px;
+        
+    }
+
+    .responsive{
+        width: 100%;
+        max-width: 800px;
+
+    }
+    
+
+    
+    .pie{
+        grid-column: 1;
+        grid-row: 20;    
+        background-color:#FDF5E6;
+        color: black;
+        padding-top: 5px;
+        border: 1px solid lightgrey;
+        border-radius: 5px;
+        height:15px;
+
+    }
+    
+    .titlebio{
+        background-color: white;
+        color: black;
+        grid-column: 2/ span 3;
+        grid-row: 3;
+        border: 2px solid grey;
+        border-radius: 5px;
+        margin-top: 5px;
+        height: 15px;
+
+    }
+    
+    .textbio{
+        grid-column: 2/ span 3;
+        grid-row: 4/16;
+        background-color:	#F5F5F5;
+        font-size: auto;
+        text-align: justify;
+        margin-top: 5px;
+        padding: 10px;
+        color: grey;
+        font-size: 100%;
+    
+    }
+    
+    
+    .titlemost{
+        background-color:white;
+        color: black;
+        grid-column:2/ span 2;
+        grid-row:16;
+        border: 2px solid grey;
+        border-radius: 5px;
+        margin-bottom: 5px;
+        height: 15px;
+
+    }
+    
+    
+    .player01{
+        background-color:#F5F5F5;
+        grid-column: 2/ span 2;
+        grid-row: 17;
+        padding: 0%;
+
+    }
+    
+    .player02{
+        background-color:#F5F5F5;
+        grid-column: 2/ span 2;
+        grid-row: 18;
+        padding: 0%;
+
+    }
+    
+    .player03{
+        background-color:#F5F5F5;
+        grid-column: 2/ span 2;
+        grid-row: 19/21;
+        padding: 0%;
+    
+    }
+    
+    .spacer{
+        grid-column: 1/3;
+        grid-row: 25;
+        background-color:#F5F5F5;
+        border: 2px solid grey;
+        border-radius: 5px;
+        margin-top: 5px;
+    
+    }
+ 
+    .backbutton{
+        grid-column: 3;
+        grid-row: 25;
+        background-color:#FDF5E6;
+        color:white;
+        border: 2px solid grey;
+        margin-top: 5px;
+                 
+    }
+    
+    .footer{
+        grid-column: 1/4;
+        background-color:white;
+        text-align: center;
+        grid-row: 26;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        margin-top: 20px;
+        padding-top:5px;
+        height: 40px;
+                
+    }
+
+
+}
+
+
+
+/******** Version PC o Notebook desde 1200px *********/
+@media only screen and (min-width: 1200px){
+    .container {
+        background-color: white;
+        padding: 0px;
+        display: grid;
+        grid-template-columns: 30% 20% 20% 30%;
+        column-gap: 2px;
+        grid-template-rows: 90px 40px 40px 110px 110px 110px 20px 30px 30px 10px 20px 10px; 
+        justify-content:center; 
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: white;
+    
+    }
+    
+    .box{
+        background-color: blue;
+        padding: 10px;
+        text-align: center;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    }
+
+    h1{
+        color: #696969;
+        margin-top: 0px;
+        
+    }
+
+    .header{
+        padding: 0px;
+        margin-top: 10px;
+        display:flex;
+        flex-direction: row;
+        justify-content:center;
+        box-sizing: border-box;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        background-color:white;
+        background-size: cover;
+        color:#696969;
+        width: 100%;
+        height: 70px;
+        font-size: 20px;
+        grid-column: 1/5;
+        border-bottom: 2px solid grey;
+                            
+    }
+   
+    .artist{
+        grid-column: 2/ span 3;
+        background-color:white;
+        font-size: 18px;
+        color:black;
+        border-top: 2px solid grey;
+        border-bottom: 2px solid grey;
+              
+    }
+    
+    .cover{
+        grid-column: 1;
+        grid-row:2/ span 7;
+        background-color: #F5F5F5;
+        border-radius: 25px;
+        width: 90%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+            
+    }
+    
+    .responsive{
+        width: 100%;
+        height:auto;
+        
+    }
+    
+    .pie{
+        grid-row: 9;    
+        background-color:#FDF5E6;
+        color: black;
+        border: 1px solid grey;
+        border-radius: 5px;
+        margin-top: 15px;
+        
+    }
+    
+    .titlebio{
+        background-color:white;
+        color: black;
+        grid-column: 2/ span 2;
+        grid-row: 3;
+        font-size: 16px;
+        border: 2px solid grey;
+        margin-top: 5px;
+                       
+    }
+    
+    .textbio{
+        grid-column: 2/span 2;
+        grid-row: 4/12;
+        background-color:whitesmoke;
+        text-align: justify;
+        padding: 15px;
+        color: grey;
+        font-size: 100%;
+    
+    }
+    
+    
+    .titlemost{
+        background-color:white;
+        color: black;
+        grid-row:3;
+        grid-column:4;
+        font-size: 16px;
+        border: 2px solid grey;
+        margin-top: 5px;
+                       
+    }
+    
+    
+    .player01{
+        margin-top: 5px;
+        padding-bottom: 15px;
+        background-color:#F5F5F5;
+        grid-column: 4/ span 1;
+        grid-row: 4/5;
+
+    }
+    
+    .player02{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color:#F5F5F5;
+        grid-column: 4/ span 1;
+        grid-row: 5/6;
+
+    }
+    
+    .player03{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color:#F5F5F5;
+        grid-column: 4/ span 1;
+        grid-row: 6/12;
+    
+    }
+    
+    .spacer{
+        grid-column: 1/4;
+        grid-row: 10;
+        background-color:#F5F5F5;
+        border-top: 2px solid grey;
+        border-bottom: 2px solid grey;
+        height:10px;
+        margin-top: 25px;
+        
+    }
+        
+    .backbutton{
+        grid-column: 4;
+        grid-row: 10;
+        background-color:#FDF5E6;
+        color:black;
+        border-top: 2px solid grey;
+        border-bottom: 2px solid grey;
+        height:10px;
+        margin-top: 25px;
+        
+    
+    }
+    
+    .footer{
+        grid-column: 1/5;
+        background-color:white;
+        text-align: center;
+        grid-row: 13;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        margin-top: 30px;
+        padding-top:5px;
+        height: 40px;
+                        
+    }
+}
