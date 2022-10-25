@@ -5,12 +5,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Vinculo font-family de Google -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/home.grid.css">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
 
-    <title>Contacto</title>
+    <!-- Vinculo FontAwesome -->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/9ee6b22221.js" crossorigin="anonymous"></script>
+
+    
+    <!-- Vinculo Iconos Locales -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+ 
+    <!-- Vinculo con css -->
+    <link rel="stylesheet" href="css/home.site.css">
+
+   
+    
+
+    <title>CONTACTO</title>
 
 </head>
 
@@ -18,23 +33,65 @@
     <div class="contenedor-contacto">
 
         <header class="header">
-             <h1>Music Cloud</h1>
+            <img src="img/logo_cloud.png" width="60" height="60" alt="logo">
+            <h1>MUSIC CLOUD</h1>
         </header>
 
-        <nav class="nav">
 
-            <a href="index.html">Inicio</a>
-            <a href="listas.html">Listas</a>
-            <a href="creditos.html">Creditos</a>
-            <a href="contacto.html" class="activo">Contacto</a>
+        <nav class="nav">
+            
+            <a href="index.html">INICIO</a>
+            <a href="listas.html">LISTAS</a>
+            <a href="contacto.html" class="activo">CONTACTO</a>
+            <a href="creditos.html">CRÉDITOS</a>
+                    
             
         </nav>
 
+        <div class="contacto">
+                <ul>
+                    <li><br>
+                        <h3>INTEGRANTES</h3><br>
+                        <h4>Mario Villarroel</h4><br>
+                        <ul><i class="fa-brands fa-square-whatsapp"></i> Whatsapp: 11-0000-0000</ul>
+                        <ul><i class="fa-solid fa-envelope"></i> <a href="mailto:mariomsg@outlook.com">Enviar mail a
+                                Mario</a></ul><br><br>
+                    </li>
+    
+                    <li>
+                        <h4>Susana Blanco</h4><br>
+                        <ul><i class="fa-brands fa-square-whatsapp"></i> Whatsapp: 11-0000-0001</ul>
+                        <ul><i class="fa-solid fa-envelope"></i>
+                            <a href="mailto:susana@hotmail.com">Enviar mail a Susana</a>
+                        </ul><br><br>
+                    </li>
+    
+                    <li>
+                        <h4>Alumno 3 </h4>
+                        <ul><i class="fa-brands fa-square-whatsapp"></i>Whatsapp: 11-xxxx-xxxx</ul>
+                        <ul><i class="fa-solid fa-envelope"></i>
+                            <a href="mailto:alumno3@hotmail.com">Enviar mail a Alumno 3</a>
+                        </ul><br>
+                    </li>
+    
+                </ul>
+    
+            </div>
+    
+            <div class="boxmaps"><br><h3>NUESTRA OFICINA</h3><br>
+                <i class="fa-solid fa-building"></i> Av. Alvear 1750(1014) Piso 10 Oficina "D" - CABA
+                <p><br>
+    
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.6012372578357!2d-58.38972398489276!3d-34.588955180463245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaa4b2297521%3A0x5ab1fb79b3d2576d!2sAv.%20Alvear%201750%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1665924710610!5m2!1ses!2sar" width="450" height="350" style="border: 5px solid lightgrey; border-radius:15px;" allowfullscreen="" loading="lazy"                      referrerpolicy="no-referrer-when-downgrade" frameborder=""></iframe>
+                </p>
+            </div>
+
+
         <section class="section">
             <form action="" onsubmit="return validar()">
-                
+
                     <div class="grid-itemDoble">
-                        <h2 class="center">Comentarios</h2>
+                        <h3 class="center">COMENTARIOS</h3><br>
                     </div>
 
                     <div class="nombre-label"> <label for="nombre">Nombre:</label></div>
@@ -58,23 +115,27 @@
                             rows="10"></textarea> <span id="error_comentario" class="error"></span> </div>
                     <div class="grid-itemDoble center"><input type="submit" class="button" value="Enviar"> <input
                             type="reset" class="button" value="Borrar"></div>
-
-
             
             </form>
             <script src="js/script.js"></script>
+        </section>
 
-            </section>
-
-            <div class="footer">
-
-                <a href="https://www.facebook.com/sharer/sharer.php?u=https://geofault.com" target="_blank" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-    <a href="https://api.whatsapp.com/send?text=https://geofault.com" target="_blank" class="whatsapp"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
-    <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://geofault.com" target="_blank" class="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-    <a href="https://plus.google.com/share?url=https://geofault.com" target="_blank" class="google-plus"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-            
-             </div>
+            <div class="comentario">
+                <h3 class="comentario-titulo">COMENTARIOS DESTACADOS</h3><br>
+            <div id="Comentarios"></div>
     </div>
+    <script src="js/api-comentarios.js"></script>
+
+
+
+<div class="footer">
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https://geofault.com" target="_blank" class="facebook"><img src="img/square-facebook.svg" alt="facebook" width="30"></a>
+    <a href="https://api.whatsapp.com/send?text=https://geofault.com" target="_blank" class="whatsapp"><img src="img/square-whatsapp.svg" alt="whatsapp" width="30"></a>
+    <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://geofault.com" target="_blank" class="linkedin"><img src="img/square-linkedin.svg" alt="LinkedIn" width="30"></a>
+                     
+</div>
+                     
+</div>
 
 </body>
 
